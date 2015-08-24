@@ -1,145 +1,72 @@
-/* Windows Minimum width: 900px */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Lora);
 
 body {
-	overflow-x: hidden;
-	overflow-y: scroll;
-	font-size: 12px;
-	font-family: Times New Roman, serif;
-	background-color: white;
-}
-
-#main {
-	width: 900px;
-	height: 550px;
-	margin: 0px auto;
-	background-color: white;
-	/*background-image: url("../tmp.jpg");*/
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    color: black;
 }
 
 header {
-	text-align: center;
-	margin-top: 25px;
-	padding-top: 25px;
-}
-figure {
-	opacity: 0;
-}
-
-#logo {
-	width: 550px;
-	height: 386px;
-	/*width: 325px;*/
-	/*height: 228px;*/
-	margin: 0px auto;
-	background: url("../imgs/Deux-Couleurs.png") no-repeat 0 0;
-	position: relative;
-}
-
-#jaune, #bleu {
-	display: inline-block;
-	position: relative;
-}
-
-#jaune {
-	width: 285px;
-	height: 390px;
-	top: 0px;
-	left: -138px;
-}
-
-#bleu {
-	width: 275px;
-	height: 390px;
-	top: -392px;
-	left: 140px;
-}
-
-hgroup {
-	/*height: 100px;*/
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 25px;
 }
 
 h1 {
-	text-transform: uppercase;
-	font-size: 2.8em;
-}
-#prenom {
-	margin-top: 25px;
-	margin-left: 29px;
-	letter-spacing: 35px;
-	opacity: 0;
-	position: relative;
-	top: 25px;
-}
-#nom {
-	margin-top: 0px;
-	margin-left: 34px;
-	letter-spacing: 32px;
-	opacity: 0;
-	position: relative;
-	/*top: -25px;*/
-	top: -9px;
-}
-
-#boucle {
-	width: 286px;
-	height: 56px;
-	margin: 5px auto;
-	background-image: url("../imgs/Boucle-Accueil.png");
-	opacity: 0;
-    display: none;
-}
-
-nav {
-	/*text-align: center;*/
-	text-align: right;
-	text-transform: capitalize;
-	font-size: 1.5em;
-	/*margin-top: 25px;*/
-	opacity: 0;
-    margin-right: 272px;
-}
-
-ul {
-	/*margin-left: -25px;*/
-    margin-top: 10px;
-}
-
-li {
-	/*display: inline-block;*/
-	display: block;
-}
-
-li a {
-	display: block;
-	color: black;
-	text-decoration: none;
-	/*width: 250px;*/
-	/*padding: 8px 0px;*/
-	/*margin-left: 25px;*/
-	/*margin: 25px;*/
-	/*border: solid 1px white;*/
-	/*background-color: grey;*/	
-}
-
-#danse_menu {
-    display: none;
-    /*background-color: #FFFF00;*/
-}
-
-#massage_menu {
-    display: none;
-    /*background-color: #32CBFE;*/
-    position: relative;
-    /*top: -18px;*/
-    top: 0px;
-}
-
-li a:hover {
-	color: black;
-	/*background-color: white;*/
-	/*border: solid 1px black;*/
+    text-transform: uppercase;
+    font-size: 2.8em;
 }
 
 footer {
-    display: none;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    text-align: center;
+    width: 100%;
+}
+
+address, address > a {
+    display: inline;
+}
+
+#main {
+    width: 900px;
+    height: 650px;
+    margin: 0px auto;
+    background-color: white;
+}
+
+#two-colors {
+    display: inline-block;
+    opacity: 0;
+    background: url("../imgs/Deux-Couleurs.png") no-repeat 0 0;
+    position: relative;
+    width: 550px;
+    height: 386px;
+    margin: 0px auto;
+}
+
+#prenom {
+    margin-top: 25px;
+    margin-left: 29px;
+    letter-spacing: 35px;
+    opacity: 0;
+    position: relative;
+    top: 25px;
+    font-family: 'Lora', serif;
+}
+
+#nom {
+    margin-top: 0px;
+    margin-left: 30px;
+    letter-spacing: 32px;
+    opacity: 0;
+    position: relative;
+    top: -9px;
+    font-family: 'Lora', serif;
 }
